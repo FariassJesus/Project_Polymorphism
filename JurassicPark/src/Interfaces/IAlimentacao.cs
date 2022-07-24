@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JurassicPark.src
+namespace JurassicPark.src.Interfaces
 {
-    internal class Dino
+    internal interface IAlimentacao
     {
+        void Predominancia();
     }
 }
